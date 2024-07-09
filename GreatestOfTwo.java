@@ -1,5 +1,6 @@
 //GREATEST OF TWO NUMBERS WITHOUT USING IF ELSE AND LOOPS
 package Basics;
+
 import java.util.Scanner;
 
 public class GreatestOfTwo {
