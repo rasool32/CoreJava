@@ -28,13 +28,13 @@ public class Factorial {
 
     public static void main(String[] args) {
         // Create a Scanner object to read input
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // Prompt the user to enter a number
         System.out.print("Enter a non-negative integer to calculate its factorial: ");
         
         // Read the input number
-        int number = scanner.nextInt();
+        int number = sc.nextInt();
 
         try {
             // Calculate the factorial of the number
@@ -46,8 +46,8 @@ public class Factorial {
             // Handle invalid input
             System.out.println(e.getMessage());
         } finally {
-            // Close the scanner to prevent resource leaks
-            scanner.close();
+            // Close the sc to prevent resource leaks
+            sc.close();
         }
     }
 }
