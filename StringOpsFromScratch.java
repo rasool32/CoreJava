@@ -87,9 +87,9 @@ public class StringOpsFromScratch {
 
 	    public static void main(String[] args) {
 	        // Test strings
-	        String str1 = "Hello";
-	        String str2 = "World";
-	        String str3 = "Hello World";
+	        String str1 = "Hello1";
+	        String str2 = "World12";
+	        String str3 = "Hello World123";
 
 	        // 1. Length of a string
 	        System.out.println("Length of str1: " + stringLength(str1));
