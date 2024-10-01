@@ -4,8 +4,8 @@ public class StringOperations {
 	    public static void main(String[] args) {
 	        // Declare a few strings
 	        String str1 = "Hello1";
-	        String str2 = "World12";
-	        String str3 = "Hello World123";
+	        String str2 = "World2";
+	        String str3 = "Hello World3";
 
 	        // 1. Length of a string
 	        System.out.println("Length of str1: " + str1.length());

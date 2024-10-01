@@ -6,7 +6,7 @@ public class ExpandString {
     public static void main(String[] args) {
         // Input string like "a2b3c4"
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the input string (e.g., a2b3c4): ");
+        System.out.println("Enter the input string (e.g., a3b4c5): ");
         String input = sc.nextLine();
 
         // Result string to hold the expanded output
